@@ -2,7 +2,7 @@ import numpy
 import pygad.cnn
 
 """
-Convolutional neural network implementation using NumPy
+Convolutional neural network implementation using NumPy ;)
 A tutorial that helps to get started (Building Convolutional Neural Network using NumPy from Scratch) available in these links: 
     https://www.linkedin.com/pulse/building-convolutional-neural-network-using-numpy-from-ahmed-gad
     https://towardsdatascience.com/building-convolutional-neural-network-using-numpy-from-scratch-b30aac50e50a
@@ -67,6 +67,6 @@ print(predictions)
 num_wrong = numpy.where(predictions != train_outputs)[0]
 num_correct = train_outputs.size - num_wrong.size
 accuracy = 100 * (num_correct/train_outputs.size)
-print("Number of correct classifications : {num_correct}.".format(num_correct=num_correct))
-print("Number of wrong classifications : {num_wrong}.".format(num_wrong=num_wrong.size))
-print("Classification accuracy : {accuracy}.".format(accuracy=accuracy))
+print("Number of correct division : {num_correct}.".format(num_correct=num_correct))
+print("Number of wrong division : {num_wrong}.".format(num_wrong=num_wrong.size))
+print("Division accuracy : {accuracy}.".format(accuracy=accuracy))
